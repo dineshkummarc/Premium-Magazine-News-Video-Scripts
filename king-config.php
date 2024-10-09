@@ -15,9 +15,9 @@
 */
 
 	define('QA_MYSQL_HOSTNAME', '127.0.0.1'); // try '127.0.0.1' or 'localhost' if MySQL on same server
-	define('QA_MYSQL_USERNAME', 'YOUR_MYSQL_USERNAME');
-	define('QA_MYSQL_PASSWORD', 'YOUR_MYSQL_PASSWORD');
-	define('QA_MYSQL_DATABASE', 'YOUR_MYSQL_DATABASE_NAME');
+	define('QA_MYSQL_USERNAME', 'root');
+	define('QA_MYSQL_PASSWORD', '');
+	define('QA_MYSQL_DATABASE', 'KingMagazine');
 
 	define('QA_MYSQL_TABLE_PREFIX', 'qa_');	
 	define('QA_EXTERNAL_USERS', false);
